@@ -5,7 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import "./App.css";
 import { Provider } from "react-redux";
 import configureStore from "./store/configrueStore";
-import { addBlog, removeBlog, editBlog } from "./actions/blogs";
+import { addBlog } from "./actions/blogs";
 
 const store = configureStore();
 

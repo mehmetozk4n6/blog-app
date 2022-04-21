@@ -2,7 +2,7 @@ import { createStore, combineReducers } from "redux";
 import authReducer from "../reducers/auth";
 import blogsReducer from "../reducers/blogs";
 
-export default () => {
+const configrueStore = () => {
   const store = createStore(
     combineReducers({
       blogs: blogsReducer,
@@ -12,3 +12,5 @@ export default () => {
   );
   return store;
 };
+
+export default configrueStore;
